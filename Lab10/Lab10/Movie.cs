@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Lab10
 {
@@ -29,11 +30,29 @@ namespace Lab10
             set { category = value; }
         }
 
+        public enum StarRating
+        {
+
+           One,
+           Two,
+           Three,
+           Four,
+           Five
+        }
 
 
-
-
-
+        public StarRating Rating { get; set; }
 
     }
+
+    class MovieContext:DbContext
+    {
+        public MovieContext():base()
+        {
+
+        }
+
+        DbSet<Movie> Movies { get; set; }
+    }
+   
 }

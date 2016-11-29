@@ -15,18 +15,15 @@ namespace Lab10
             bool continueOn;
             do
             {
-                Console.Clear();
-                Console.WriteLine("Enter a Category:/n");
-                Console.WriteLine("animated\ndrama\nhorror\nmusical\nscifi");
+                //Console.Clear();
+                //Console.WriteLine("Enter a Category:/n");
+                //Console.WriteLine("animated\ndrama\nhorror\nmusical\nscifi");
 
                 string category = Console.ReadLine();
                 MoviesList = MoviesList.OrderBy(m => m.Name).ToList();
                 foreach (Movie m in MoviesList)
                 {
-                    if (m.Category == category)
-                    {
-                        Console.WriteLine($"Title: {m.name}, Category: {m.category}");
-                    }
+                   
                 }
 
                 Console.WriteLine("Continue (Y/N)?");

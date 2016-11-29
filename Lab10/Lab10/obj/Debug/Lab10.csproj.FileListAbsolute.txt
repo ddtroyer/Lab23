@@ -4,3 +4,6 @@ C:\Users\Michael\Documents\Visual Studio 2015\Projects\Lab10\Lab10\bin\Debug\Lab
 C:\Users\Michael\Documents\Visual Studio 2015\Projects\Lab10\Lab10\bin\Debug\Lab10.pdb
 C:\Users\Michael\Documents\Visual Studio 2015\Projects\Lab10\Lab10\obj\Debug\Lab10.exe
 C:\Users\Michael\Documents\Visual Studio 2015\Projects\Lab10\Lab10\obj\Debug\Lab10.pdb
+C:\Users\Michael\Documents\GitHub\Lab23\Lab10\Lab10\bin\Debug\Lab10.exe.config
+C:\Users\Michael\Documents\GitHub\Lab23\Lab10\Lab10\obj\Debug\Lab10.exe
+C:\Users\Michael\Documents\GitHub\Lab23\Lab10\Lab10\obj\Debug\Lab10.pdb
